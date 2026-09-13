@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PRAKASH B.| Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <!--header with navigation bar-->
+    <header>
+        <div class="logo">PRAKASH B.</div>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#resume">RESUME</a>
+        </nav>
+    </header>
+
+    <!--section 1: Home/Hero-->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!--profile image path -->
+            <div class="profile-img-wrapper">
+                <img src="images/profile.png" alt="Prakash B" class="profile-img">
+            </div>
+            <p class="greeting">Hello, I'm <span class="highlight">Prakash B.</span></p>
+            <h1 class="hero-title">ASPIRING FRONTEND DEVELOPER & CSS SPECIALIST</h1>
+            <p class="hero-subtitle">Building, high-performance web applications using modern CSS layout and semantic HTML</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project #1: Section 2 - About Me -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">ABOUT ME</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I am a passionate Frontend Developer dedicated to creating clean, user-friendly, and responsive web applications. With a strong foundation in HTML, CSS, and modern web design principles, I focus on turning creative concepts into pixel-perfect code.
+          </p>
+          <p>
+            My goal is to constantly expand my full-stack capabilities, write maintainable code, and build digital experiences that deliver real value to users.
+          </p>
+        </div>
+        
+        <div class="about-stats">
+          <div class="stat-card">
+            <h3>Focus</h3>
+            <p>Frontend Architecture & UI Design</p>
+          </div>
+          <div class="stat-card">
+            <h3>Core Stack</h3>
+            <p>HTML5, CSS3, JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project #1: Section 3 - Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">SKILLS & TECHNOLOGIES</h2>
+      
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">HTML5</div>
+          <h3>Semantic Markup</h3>
+          <p>Structuring clean, accessible, and SEO-friendly web components.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">CSS3</div>
+          <h3>Modern Styling</h3>
+          <p>Mastering Flexbox, CSS Grid, animations, and custom UI design.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">RESPONSIVE</div>
+          <h3>Mobile-First Design</h3>
+          <p>Creating seamlessly adaptable layouts for screens of all sizes.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">DEV TOOLS</div>
+          <h3>Workflow Tools</h3>
+          <p>Using VS Code, Chrome DevTools, Git, and clean file architecture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project #1: Section 5 - Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">GET IN TOUCH</h2>
+      <div class="contact-card">
+        <p>I am currently open for Frontend Developer opportunities and freelance projects.</p>
+        <a href="mailto:prakash@example.com" class="btn btn-primary">SEND AN EMAIL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Prakash B. Built with HTML5 & CSS3.</p>
+  </footer>
+
 </body>
 </html>
